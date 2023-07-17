@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-indigo-900 text-zinc-200 font-bold;
+    @apply bg-sky-950 text-zinc-200 font-bold;
   }
 }
 
