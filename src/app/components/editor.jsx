@@ -1,4 +1,5 @@
-import { StickyNote } from "lucide-react";
+import { ListChecks } from "lucide-react";
+
 export const Editor = ({ notesData }) => {
   return (
     <div className="max-w-md m-auto space-y-8">
@@ -12,7 +13,7 @@ export const Editor = ({ notesData }) => {
               style={{ background: "#" + item.color }}
             >
               <div className=" flex items-center">
-                <StickyNote
+                <ListChecks
                   className=" bg-white rounded-xl p-0.5 m-1.5 "
                   color="#F00D7B"
                   size={30}
